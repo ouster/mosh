@@ -9,4 +9,10 @@ class StringReverserTest {
         val reversed = StringReverser().reverse("hello")
         assertEquals("olleh", reversed)
     }
+
+    @Test
+    fun `test empty string`() {
+        val reversed = StringReverser().reverse("")
+        assertEquals("", reversed)
+    }
 }
