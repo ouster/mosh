@@ -1,4 +1,4 @@
-namespace DnA1.Array;
+namespace DnA1.MyArray;
 
 public class ComparerT<T> where T : IComparable<T>
 {

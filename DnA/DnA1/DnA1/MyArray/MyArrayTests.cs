@@ -1,7 +1,7 @@
-using DnA1.Array;
+using Xunit;
 using Xunit.Abstractions;
 
-namespace DnA1;
+namespace DnA1.MyArray;
 
 public class MyArrayTests : IDisposable
 {
